@@ -56,16 +56,6 @@ nav ul li:first-of-type a {
     font-weight: bold;
 }
 
-
-/* Sticky Container */
-.sticky-container {
-    position: -webkit-sticky; /* Safari */
-    position: sticky;
-    top: 0;
-    padding-bottom: 0.5rem;
-    background-color: var(--main-bg-color);
-}
-
 /* Main Content */
 h2 {
     font-size: 2rem;
@@ -123,7 +113,7 @@ td {
 
 /* Promotion Section */
 #promotion {
-    background-image: url('../assets/background-header.jpg');
+    background-image: url('background-header.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
